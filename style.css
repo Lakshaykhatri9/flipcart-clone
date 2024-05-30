@@ -1,13 +1,15 @@
-.hero-div{
-    width: 128vw;
-    height: 6rem;
-    border: 2px solid black;
+/* .hero-img{
+    background-size: cover;
+    animation: photo-animation 5s ease infinite alternate;
 }
 
-.hero-img{
-    background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/1e31c9d65e3b4592.jpg?q=20");
-    height: 100%;
-    width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
+
+@keyframes photo-animation{
+    from{
+        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/17a2c4ed00866b1a.jpg?q=20");
+    }
+
+    to{
+        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/75b8877f00fe7c6c.jpg?q=20");
+    }
+} */

@@ -1,83 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flipcart</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="icon" href="flipcart-icon.jpeg">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flipcart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" href="flipcart-icon.jpeg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body class="bg-gray-200">
   <header>
     <nav class="w-[550px] sm:w-auto m-auto py-4 px-6 flex items-center justify-between bg-white">
       <div class="flex items-center">
-      <div class="w-7 block md:hidden ml-3">
-        <div class="bg-black h-0.5 w-full m-2"></div>
-        <div class="bg-black h-0.5 w-full m-2"></div>
-        <div class="bg-black h-0.5 w-full m-2"></div>
+        <div class="w-7 block md:hidden ml-3">
+          <div class="bg-black h-0.5 w-full m-2"></div>
+          <div class="bg-black h-0.5 w-full m-2"></div>
+          <div class="bg-black h-0.5 w-full m-2"></div>
+        </div>
+
+        <div class="logo-div">
+          <img src="flipcart logo.svg" alt="logo">
+        </div>
       </div>
 
-      <div class="logo-div">
-        <img src="flipcart logo.svg" alt="logo">
-      </div>
-    </div>
-
-    <div class="search-bar hidden md:block">
-      <div class="flex items-center bg-gray-200 h-14 rounded-md px-3 mx-7">
-      <i class="fa-solid fa-magnifying-glass mr-3 text-xl"></i>
-      <input type="text" placeholder="Search for more product, Brand and More" class="outline-none h-8 placeholder:text-2xl text-2xl md:w-64 lg:w-[30rem] bg-gray-200">
-    </div>
-    </div>
-
-
-    <div class="flex items-center space-x-7">
-      <div class="phone-logo">
-        <i class="fa-solid fa-download text-xl hover:scale-125 duration-300 cursor-pointer"></i>
-      </div>
-
-      <div class="user-logo flex items-center space-x-2">
-        <i class="fa-solid fa-user"></i>
-        <p class="text-lg font-bold pr-3">Login</p>
-        <i class="fa-solid fa-angle-down hidden md:block hover:rotate-180 duration-300 cursor-pointer"></i>
+      <div class="search-bar hidden md:block">
+        <div class="flex items-center bg-gray-200 h-14 rounded-md px-3 mx-7">
+          <i class="fa-solid fa-magnifying-glass mr-3 text-xl"></i>
+          <input type="text" placeholder="Search for more product, Brand and More"
+            class="outline-none h-8 placeholder:text-2xl text-2xl md:w-64 lg:w-[30rem] bg-gray-200">
+        </div>
       </div>
 
 
-      <div class="cart-logo">
-        <i class="fa-solid fa-cart-shopping text-xl"></i>
-      </div> 
-      
-      <div class="shop hidden md:block">
-        <i class="fa-solid fa-shop"></i>
+      <div class="flex items-center space-x-7">
+        <div class="phone-logo">
+          <i class="fa-solid fa-download text-xl hover:scale-125 duration-300 cursor-pointer"></i>
+        </div>
+
+        <div class="user-logo flex items-center space-x-2">
+          <i class="fa-solid fa-user"></i>
+          <p class="text-lg font-bold pr-3">Login</p>
+          <i class="fa-solid fa-angle-down hidden md:block hover:rotate-180 duration-300 cursor-pointer"></i>
+        </div>
+
+
+        <div class="cart-logo">
+          <i class="fa-solid fa-cart-shopping text-xl"></i>
+        </div>
+
+        <div class="shop hidden md:block">
+          <i class="fa-solid fa-shop"></i>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
   </header>
 
   <div class="search-div md:hidden w-[34rem] mt-3 bg-center ">
     <div class="flex items-center justify-center bg-white h-14 rounded-md px-3 mx-7">
       <i class="fa-solid fa-magnifying-glass mr-3 text-xl"></i>
-      <input type="text" placeholder="Search for more product, Brand and More" class="outline-none h-8 placeholder:text-xl text-xl w-full bg-white">
+      <input type="text" placeholder="Search for more product, Brand and More"
+        class="outline-none h-8 placeholder:text-xl text-xl w-full bg-white">
     </div>
   </div>
 
- <div class="flex space-x-10 mt-16 justify-center content-center overflow-hidden">
-  <img src="https://rukminim1.flixcart.com/flap/64/64/image/29327f40e9c4d26b.png?q=100" alt="grocery">
-  <img src="https://rukminim2.flixcart.com/flap/64/64/image/22fddf3c7da4c4f4.png?q=100" alt="grocery">
-  <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/0d75b34f7d8fbcb3.png?q=100" alt="grocery">
-  <img src="https://rukminim2.flixcart.com/flap/64/64/image/69c6589653afdb9a.png?q=100" alt="grocery">
-  <img src="https://rukminim2.flixcart.com/flap/64/64/image/ab7e2b022a4587dd.jpg?q=100" alt="grocery">
-  <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/0139228b2f7eb413.jpg?q=100" alt="grocery">
-  <img src="https://rukminim2.flixcart.com/flap/64/64/image/71050627a56b4693.png?q=100" alt="grocery">
-  <img src="	https://rukminim2.flixcart.com/flap/64/64/image/dff3f7adcf3a90c6.png?q=100" alt="grocery">
-</div>
+  <div class="flex space-x-10 mt-16 justify-between content-center overflow-hidden mx-4">
+    <div>
+      <img src="https://rukminim1.flixcart.com/flap/64/64/image/29327f40e9c4d26b.png?q=100" alt="grocery">
+      <b>Grocery</b>
+    </div>
+    <img src="https://rukminim2.flixcart.com/flap/64/64/image/22fddf3c7da4c4f4.png?q=100" alt="grocery">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/0d75b34f7d8fbcb3.png?q=100" alt="grocery">
+    <img src="https://rukminim2.flixcart.com/flap/64/64/image/69c6589653afdb9a.png?q=100" alt="grocery">
+    <img src="https://rukminim2.flixcart.com/flap/64/64/image/ab7e2b022a4587dd.jpg?q=100" alt="grocery">
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/0139228b2f7eb413.jpg?q=100" alt="grocery">
+    <img src="https://rukminim2.flixcart.com/flap/64/64/image/71050627a56b4693.png?q=100" alt="grocery">
+    <img src="	https://rukminim2.flixcart.com/flap/64/64/image/dff3f7adcf3a90c6.png?q=100" alt="grocery">
+  </div>
 
-<!-- <div class="hero-div md:w-[140vw]">
-  <div class="hero-img">
+  <div class="hero-div mt-10">
+    <div class="hero-img bg-cover w-[34.5rem] sm:w-[100%]">
+      <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/17a2c4ed00866b1a.jpg?q=20" alt="hero-img" class="h-56 sm:max-h-none">
+    </div>
+  </div>
+  
 
-  </div> -->
-</div>
+  <div class="shopping-elements mt-10 ml-4">
+    <h1 class="text-2xl">Best of electronics</h1>
+  </div>
 </body>
 </html>
