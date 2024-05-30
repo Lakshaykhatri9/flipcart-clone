@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
-<body class="bg-gray-200">
+<body>
   <header>
     <nav class="w-[550px] sm:w-auto m-auto py-4 px-6 flex items-center justify-between bg-white">
       <div class="flex items-center">
@@ -27,11 +27,11 @@
         </div>
       </div>
 
-      <div class="search-bar hidden md:block">
+      <div class="search-bar hidden md:block"><!--big screen search bar-->
         <div class="flex items-center bg-gray-200 h-14 rounded-md px-3 mx-7">
           <i class="fa-solid fa-magnifying-glass mr-3 text-xl"></i>
           <input type="text" placeholder="Search for more product, Brand and More"
-            class="outline-none h-8 placeholder:text-2xl text-2xl md:w-64 lg:w-[30rem] bg-gray-200">
+            class="outline-none h-8 placeholder:text-lg text-lg md:w-[14rem] lg:w-[30rem] bg-gray-200">
         </div>
       </div>
 
@@ -41,10 +41,10 @@
           <i class="fa-solid fa-download text-xl hover:scale-125 duration-300 cursor-pointer"></i>
         </div>
 
-        <div class="user-logo flex items-center space-x-2">
+        <div class="user-logo flex items-center space-x-2 hover:bg-blue-500 p-2 rounded-lg cursor-pointer">
           <i class="fa-solid fa-user"></i>
           <p class="text-lg font-bold pr-3">Login</p>
-          <i class="fa-solid fa-angle-down hidden md:block hover:rotate-180 duration-300 cursor-pointer"></i>
+          <i class="fa-solid fa-angle-down down-angle hidden md:block"></i>
         </div>
 
 
@@ -59,37 +59,98 @@
     </nav>
   </header>
 
-  <div class="search-div md:hidden w-[34rem] mt-3 bg-center ">
-    <div class="flex items-center justify-center bg-white h-14 rounded-md px-3 mx-7">
+  <div class="search-div md:hidden w-[34rem] mt-3 bg-center"><!--Mobile phone search bar-->
+    <div class="flex items-center h-12 rounded-md px-3 bg-gray-300 mx-4 mr-2">
       <i class="fa-solid fa-magnifying-glass mr-3 text-xl"></i>
       <input type="text" placeholder="Search for more product, Brand and More"
-        class="outline-none h-8 placeholder:text-xl text-xl w-full bg-white">
+        class="outline-none h-8 placeholder:text-xl text-xl w-full bg-gray-300">
     </div>
   </div>
 
-  <div class="flex space-x-10 mt-16 justify-between content-center overflow-hidden mx-4">
+  <div
+    class="flex space-x-28 mt-16 justify-between items-center overflow-scroll w-[36rem] sm:overflow-scroll md:w-[47rem] lg:overflow-scroll lg:w-[64rem] xl:w-[80rem]">
     <div>
       <img src="https://rukminim1.flixcart.com/flap/64/64/image/29327f40e9c4d26b.png?q=100" alt="grocery">
       <b>Grocery</b>
     </div>
-    <img src="https://rukminim2.flixcart.com/flap/64/64/image/22fddf3c7da4c4f4.png?q=100" alt="grocery">
-    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/0d75b34f7d8fbcb3.png?q=100" alt="grocery">
-    <img src="https://rukminim2.flixcart.com/flap/64/64/image/69c6589653afdb9a.png?q=100" alt="grocery">
-    <img src="https://rukminim2.flixcart.com/flap/64/64/image/ab7e2b022a4587dd.jpg?q=100" alt="grocery">
-    <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/0139228b2f7eb413.jpg?q=100" alt="grocery">
-    <img src="https://rukminim2.flixcart.com/flap/64/64/image/71050627a56b4693.png?q=100" alt="grocery">
-    <img src="	https://rukminim2.flixcart.com/flap/64/64/image/dff3f7adcf3a90c6.png?q=100" alt="grocery">
-  </div>
 
-  <div class="hero-div mt-10">
-    <div class="hero-img bg-cover w-[34.5rem] sm:w-[100%]">
-      <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/17a2c4ed00866b1a.jpg?q=20" alt="hero-img" class="h-56 sm:max-h-none">
+    <div>
+      <img src="https://rukminim2.flixcart.com/flap/64/64/image/22fddf3c7da4c4f4.png?q=100" alt="Smart phones">
+      <b>phones</b>
+    </div>
+
+    <div>
+      <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/0d75b34f7d8fbcb3.png?q=100" alt="grocery">
+      <b>Fashion</b>
+    </div>
+
+    <div>
+      <img src="https://rukminim2.flixcart.com/flap/64/64/image/69c6589653afdb9a.png?q=100" alt="grocery">
+      <b>Electronics</b>
+    </div>
+
+    <div>
+      <img src="https://rukminim2.flixcart.com/flap/64/64/image/ab7e2b022a4587dd.jpg?q=100" alt="grocery">
+      <b>Home & furniture</b>
+    </div>
+
+    <div>
+      <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/0139228b2f7eb413.jpg?q=100" alt="grocery">
+      <b>Appliances</b>
+    </div>
+    <div>
+      <img src="https://rukminim2.flixcart.com/flap/64/64/image/71050627a56b4693.png?q=100" alt="grocery">
+      <b>Travel</b>
+    </div>
+    <div>
+      <img src="	https://rukminim2.flixcart.com/flap/64/64/image/dff3f7adcf3a90c6.png?q=100" alt="grocery">
+      <b>Beauty</b>
     </div>
   </div>
-  
 
-  <div class="shopping-elements mt-10 ml-4">
-    <h1 class="text-2xl">Best of electronics</h1>
+  <!--Hero Section-->
+
+  <div class="hero-div mt-10">
+    <div class="hero-img bg-cover w-[36rem] sm:w-full">
+      <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/17a2c4ed00866b1a.jpg?q=20" alt="hero-img"
+        class="h-56">
+    </div>
+  </div>
+
+
+
+  <div class="shopping-element flex-col items-center mt-20 md:flex"> <!--main shopping element-->
+    <div class="img-div mr-6 flex items-center w-screen mb-10"> <!--1st element div-->
+      <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/u/q/7/-original-imagt5fc2j4snxrr.jpeg?q=70"
+        alt="earbuds" class="w-20 mx-4">
+
+      <div class="flex justify-between items-center w-[100%]"> <!--heading div-->
+        <div class="w-[32rem]">
+          <h1 class="font-bold text-xl md:text-2xl">Best Truewireless headphones</h1>
+          <p>Grab Now</p>
+        </div>
+
+        <i class="fa-solid fa-chevron-right block md:hidden"></i>
+      </div>
+    </div>
+
+    <div class="img-div mr-6 flex items-center w-screen"> <!--1st element div-->
+      <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/u/q/7/-original-imagt5fc2j4snxrr.jpeg?q=70"
+        alt="earbuds" class="w-20 mx-4">
+
+      <div class="flex justify-between items-center w-[100%]"> <!--heading div-->
+        <div class="w-[32rem]">
+          <h1 class="font-bold text-xl md:text-2xl">Best Truewireless headphones</h1>
+          <p>Grab Now</p>
+        </div>
+
+        <i class="fa-solid fa-chevron-right block md:hidden"></i>
+      </div>
+
+    </div>
+
+
   </div>
 </body>
+
 </html>

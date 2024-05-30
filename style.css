@@ -1,15 +1,5 @@
-/* .hero-img{
-    background-size: cover;
-    animation: photo-animation 5s ease infinite alternate;
+.user-logo:hover .down-angle{
+    transform: rotate(180deg);
+    transition: 0.5s ease;
 }
 
-
-@keyframes photo-animation{
-    from{
-        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/17a2c4ed00866b1a.jpg?q=20");
-    }
-
-    to{
-        background-image: url("https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/75b8877f00fe7c6c.jpg?q=20");
-    }
-} */
